@@ -2495,3 +2495,18 @@ img#wpstats { display: none; }
 #ServiceRecherche:hover {
    background-image: url('http://localhost/wp-content/uploads/2017/03/RechercheON-150x150.png');
 }
+
+/* CSS Projets --------------------------------------- */
+.absolute-text {
+  position:absolute; 
+  bottom:0; 
+  font-size:24px; 
+  font-family:"vedana"; 
+  background:rgba(251,251,251,0.5);
+  padding:10px 20px; 
+  width:100%; 
+  text-align:center;
+}
+.relative {
+  position: relative;
+}

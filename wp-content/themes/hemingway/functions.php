@@ -450,6 +450,7 @@ function modify_jquery_version() {
         wp_enqueue_script('jquery');
     }
 }
+
 add_action('init', 'modify_jquery_version');
 
 // Setup the Theme Customizer settings and controls...
