@@ -2510,3 +2510,11 @@ img#wpstats { display: none; }
 .relative {
   position: relative;
 }
+
+/* Photos A propos ----------------------------------- */
+.roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:150px;
+    -moz-border-radius:150px;
+    border-radius:150px;
+}
