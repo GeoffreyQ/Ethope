@@ -433,8 +433,8 @@
         self.children().find('.isotope-container').imagesLoaded( function() {
           projectIsotope(self.children().find('.isotope-container'));
         });
-
-        $(window).load(function(){
+		
+		$(window).on('load', function(){ 
           projectIsotope(self.children().find('.isotope-container'));
         });
 

@@ -1,8 +1,7 @@
 <?php get_header(); ?>
+<div class="wrapper">						
 
-<div class="wrapper section-inner">						
-
-	<div class="content left">
+	<div class="content">
 	
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
@@ -34,12 +33,7 @@
 						
 				<?php endif; ?>
 														
-				<div class="post-header">
-											
-				    <h1 class="post-title"><?php the_title(); ?></h1>
-				    				    
-			    </div> <!-- /post-header -->
-			   				        			        		                
+		   				        			        		                
 				<div class="post-content">
 							                                        
 					<?php the_content(); ?>

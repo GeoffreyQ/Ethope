@@ -462,4 +462,11 @@ add_action( 'wp_head' , array( 'Hemingway_Customize' , 'header_output' ) );
 // Enqueue live preview javascript in Theme Customizer admin screen
 add_action( 'customize_preview_init' , array( 'Hemingway_Customize' , 'live_preview' ) );
 
+
+
+wp_register_style( 'slickCSS', '//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css' );
+wp_enqueue_style('slickCSS');
+wp_register_script( 'slickJS', '//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js', null, null, true );
+wp_enqueue_script('slickJS');
+
 ?>

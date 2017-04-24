@@ -1,0 +1,75 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 2017-04-21 04:03:46
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.4
+WORDPRESS:	4.7.3
+PHP INFO:	5.6.25 | SAPI: apache2handler
+SERVER:		Apache/2.4.23 (Win64) PHP/5.6.25 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 37MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:14 | filtered:0 | create:14 
+FILTERED: [] 
+SQL CREATED: 20170420_ethope_5a5884c17f35f5a69211170421035905_database.sql 
+SQL FILE SIZE: 5.11MB (5361807) 
+SQL FILE TIME: 2017-04-21 04:03:46 
+SQL RUNTIME: 0.19 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  C:/wamp64/www 
+ARCHIVE FILE: 20170420_ethope_5a5884c17f35f5a69211170421035905_archive.zip 
+FILTERS: *OFF* 
+DIRS: not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	65.54MB 
+STATS:	Dirs 463 | Files 2,716 
+SQL ADDED: 20170420_ethope_5a5884c17f35f5a69211170421035905_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 3179
+    [filename] => C:\wamp64\www\wp-snapshots\tmp\20170420_ethope_5a5884c17f35f5a69211170421035905_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 43.12MB 
+ARCHIVE RUNTIME: 5.95 sec. 
+MEMORY STACK: 38.5MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [C:/wamp64/www/wp-snapshots/tmp/20170420_ethope_5a5884c17f35f5a69211170421035905_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 5.11MB 
+Installer File: 419.55KB 
+Archive File: 43.12MB  
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 6.38 sec.
+PEAK PHP MEMORY USED: 41MB
+DONE PROCESSING => 20170420_ethope 2017-04-21 04:03:52
+ 
